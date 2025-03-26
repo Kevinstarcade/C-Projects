@@ -5,6 +5,10 @@ const char * const YELLOW = "\x1b[33m";
 const char * const WHITE = "\x1b[0m";
 const char * current = WHITE;
 
+// imitation of the popular NewYorkTimes game Wordle played in the cmd terminal.
+// used project to practice functional programing in the C PL.
+// the correct word is taken as the 1st cmd line argument, and sequential guessare are read from stdin.
+
 void setColour(const char *colour) {
   if (current == colour) return;
   printf("%s", colour);
