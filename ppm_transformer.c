@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+// reads a .ppm picture file in the P3 format, and applies different transformations to it
+// uses command line arguements to apply a horizontal flip and/or a sepia filter
+// projects builds on structs, multi-dimensional arrays, dynamic memory, and command line arguments
 
 struct pixel {
     int r, g, b;
