@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+// reads a string of ints, one character at a time, to determine if the number is a valid luhns number.
+// luhns algorithm is a commonly used algorithm to check the validity of credit card numbers
 
 int luhns() {
 	
