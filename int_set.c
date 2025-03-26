@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+// reads instructions from stdin to manipulate two mathematical sets, x and y:
+// a - add value to set, does nothing if set already contains value. usage: a <set> <value>
+// r - remove a value from a set, does nothing if set does not contain value. usage: r <set> <value>
+// p - print set. usage: p <set>
+// u - prints the union of the two sets. usage: u
+// i - prints the intersect of the two sets. usage: i
+// q - quits the program. usage: q
+// used as an introduction to structs and practice for dynamic memory, incuding allocating structs on the heap and freeing memory properly
 
 struct set {
     int *arr;
