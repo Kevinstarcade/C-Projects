@@ -1,4 +1,5 @@
 #include<stdio.h>
+// Finds and prints all the divisors of an integer the program reads from stdin.
 
 void divisors(int num) {
 	if (num >= 1) {
